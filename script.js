@@ -33,19 +33,19 @@ async function checkweather(city){
         document.querySelector("#windval").innerHTML =data.wind.speed + "Km/h";
 
         if(data.weather[0].main == 'Clouds')
-          weathericon.src="Images/Cloud.png";
+          weathericon.src="Cloud.png";
 
         else if(data.weather[0].main == 'Smoke')
-          weathericon.src="Images/Smoke.png";
+          weathericon.src="Smoke.png";
 
         else if(data.weather[0].main == 'Rain')
-          weathericon.src="Images/Rain.png";
+          weathericon.src="Rain.png";
 
         else if(data.weather[0].main == 'Haze' || data.weather[0].main == 'Fog')
-          weathericon.src="Images/Haze.png";
+          weathericon.src="Haze.png";
 
         else if(data.weather[0].main == 'Snow')
-          weathericon.src="Images/Snow.png";
+          weathericon.src="Snow.png";
 
           document.querySelector("#sub-section").style.display="flex";
           document.querySelector("#middlesection").style.display="block";
