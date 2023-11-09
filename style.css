@@ -1,0 +1,169 @@
+html{
+    box-sizing: border-box;
+    font-size: 26px;
+    font-family: 'Ubuntu Mono', monospace;
+ 
+}
+
+*, *:after ,*:before{
+
+    box-sizing: inherit;
+}
+
+
+#card
+{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    width: 720px;
+    height: auto;
+    background:#d65959;
+    background-image: url("Images/b.jfif");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+#topsection
+
+{ 
+    display: flex;
+    height: 256px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: none;
+
+
+}
+
+
+
+#middlesection
+{
+    height: 60%;
+    width: 100%;
+    border: none;
+    align-self: center;
+    padding-top: 100px;
+    text-align:center;
+    font-size: 100PX;
+    line-height: 0%;
+    display: none;
+}
+
+#sub-section
+{   
+   display: none;
+    height: 20%;
+    width: 100%;
+    border: none;
+    justify-content:space-between ; 
+    margin-bottom: 40px;  
+}
+
+
+
+#humidity
+{
+    border: none;
+    flex-basis: 50%;
+    font-size: 40px;
+    
+}
+
+#windspeed
+{
+    border: none;
+    flex-basis: 50%;
+    font-size: 40px;
+    
+}
+
+input
+{
+
+    width:60%;
+    height: 30%;
+    margin-top: 10%;
+    font-size: 26px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: #ebfffc;
+}
+
+button
+{
+    
+    width:70px;
+    height:70px;
+    border: none;
+    border-radius: 360px;
+    background: #ebfffc;
+
+
+}
+
+img
+{   
+   width:100%;
+   height:100%;
+   border: none;
+   border-radius: 360px; 
+   margin: 0;
+   padding:0;
+
+  
+}
+
+#weather{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   border: none;
+    width: 90%;
+    height: 45%;
+    
+    
+
+}
+
+
+button:hover{
+    transform: scale(1.2);
+   
+
+}
+
+
+.sub-hum > img{
+    height: 50%;
+    width: 50%;
+    align-self: center;
+}
+
+.sub-wind>img{
+    height: 40%;
+    width: 40%;
+    align-self: center;
+
+}
+
+.sub-hum,.sub-wind{
+    display: flex;
+    
+    
+    
+}
+
+#Invalid{
+
+    margin-left: 100px;
+    display: none;
+}
+
